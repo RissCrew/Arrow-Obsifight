@@ -14,13 +14,13 @@ En cas de modification pour mise à jour du jar Arrow, merci d'effectuer un rebo
 Lors du démarrage, un dossier "event-config" va être créé dans le dossier plugin et un fichier config en .json va se créer. Modifiez le en connaissance de cause uniquement.
 
 ### Utilisation:
-Découvrez les commandes du plugin en faisant /helparrow
-Vous devrez définir un lobby avec /setlobbyarrow
-Vous devrez définir des points de spawn avec les commandes /asp
+Découvrez les commandes du plugin en faisant /helparrow <br />
+Vous devrez définir un lobby avec /setlobbyarrow <br />
+Vous devrez définir des points de spawn avec les commandes /asp <br />
 
 ### Permissions:
-arrow-obsifight.animator (op): Accès aux commandes /startarrow, /stoparrow
-arrow-obsifight.op (op): Accès à la commande /asp, /setlobbyarrow
+arrow-obsifight.animator (op): Accès aux commandes /startarrow, /stoparrow <br />
+arrow-obsifight.op (op): Accès à la commande /asp, /setlobbyarrow <br />
 
 ### Support, Contact:
 Discord: @RissCrew#5572
