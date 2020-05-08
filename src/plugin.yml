@@ -1,0 +1,48 @@
+name: obsifight-arrow
+version: 1.1.0
+author: RissCrew
+main: fr.risscrew.arrow_obsifight.Main
+
+commands:
+  startarrow:
+    description: Ouvre l'arène de pvp arrow
+    usage: /startarrow
+    permission: arrow-obsifight.animator
+    permission-message: Vous n'avez pas les privilèges nécessaires
+  stoparrow:
+    description: Ferme l'arène de pvp arrow
+    usage: /stoparrow
+    permission: arrow-obsifight.animator
+    permission-message: Vous n'avez pas les privilèges nécessaires
+  joinarrow:
+    description: Rejoint l'arène de pvp arrow
+    usage: /joinarrow
+    aliases: [jarrow]
+  leavearrow:
+    description: Quitte l'arène de pvp arrow
+    usage: /leavearrow
+    aliases: [larrow]
+  arrowspawnpoints:
+    description: Accède aux options de l'arène de pvp arrow
+    usage: /arrowspawnpoints
+    aliases: [asp]
+    permission: arrow-obsifigt.op
+    permission-message: Vous n'avez pas les privilèges nécessaires
+  helparrow:
+    description: Affiche de l'aide pour le plugin Arrow
+    usage: /helparrow
+    aliases: [?arrow, harrow]
+  setlobbyarrow:
+    description: Définit le lobby de l'arrow
+    usage: /setlobbyarrow
+    aliases: [slarrow]
+    permission: arrow-obsifight.op
+    permission-message: Vous n'avez pas les privilèges nécessaires
+
+permissions:
+  arrow-obsifight.animaor:
+    description: Donne la permission de gérer le lancement de l'event
+    default: op
+  arrow-obsifight.op:
+    description: Permission op du plugin
+    default: op
